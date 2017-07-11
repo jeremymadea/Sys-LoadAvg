@@ -6,3 +6,5 @@ Revision history for Perl extension Sys::LoadAvg.
 	- Added Linux support. 
 0.03  Wed May 30 14:21:02 UTC 2012
 	- Released on github and CPAN
+0.04
+	- Fix RT#98359 - NHORNE
