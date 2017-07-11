@@ -13,8 +13,8 @@ void
 loadavg()
   PROTOTYPE:
   PREINIT:
-    double loadavg[2];
-    int retval; 
+    double loadavg[3];
+    int retval;
     int i;
   PPCODE:
     retval = getloadavg(loadavg, 3);
